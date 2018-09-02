@@ -1,3 +1,3 @@
 # statistics-is-awesome
 
-This will be where the html docs etc. for the new version of the teaching.statistics-is-awesome.org/ blog are saved.
+This will be where the html docs etc. for statistics-is-awesome.org will be saved

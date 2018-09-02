@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>statistics is awesome</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+<style>
+body {
+    margin: 0;            /* Reset default margin */
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.left {
+    display: block;       /* iframes are inline by default */
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 50%;
+	float: left;
+	background: #c6ccca;
+	text-align: center;
+}
+
+.right {
+    display: block;       /* iframes are inline by default */
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 50%;
+	float: left;
+	background: #ffe599;
+	text-align: center;
+}
+
+.left:hover, .right:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+h1{
+	font-size: 4vw;
+	margin-top: 10vh;
+}
+
+img {
+	margin-top: 10vh;
+}
+
+</style>
+</head>
+<body>
+<div class='left' id="teaching">
+<img src='logo_dots_learning.png' alt='logo' width="35%">
+<h1>teaching <br> statistics <br> is  awesome</h1>
+</div>
+<div class='right' id="learning">
+<img src='logo_dots_teaching.png' alt='logo' width="35%">
+<h1>learning <br> statistics <br> is awesome</h1>
+</div>
+</body>
+</html>
+<script>
+//click through to websites
+document.getElementById("teaching").addEventListener("click", locationTeaching);
+document.getElementById("learning").addEventListener("click", locationLearning);
+
+function locationTeaching()
+{
+  //change after update
+  window.location.href = "http://teaching.statistics-is-awesome.org";
+}
+
+function locationLearning()
+{
+  //change after update
+  window.location.href = "http://learning.statistics-is-awesome.org";
+}
+//add google analytics script here
+</script>
